@@ -1,9 +1,7 @@
-marks = []
+n = int(input())
 
-for i in range(5):
-    mark = float(input(f"Enter marks for subject {i+1}: "))
-    marks.append(mark)
+total = 0
+for i in range(n):
+    total += int(input())
 
-average = sum(marks) / 5
-
-print("Average Marks =", average)
+print(total)
